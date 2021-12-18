@@ -52,8 +52,20 @@ body{
   }
   @media screen and (max-width: 992px){
       .intro-image{
+          position: static;
           transform: rotate(0deg);
       }
+      .image-relative{
+          position: static;
+      }
+      .features{
+        position: static;
+        height: 100%;
+      }
+      .carousel-section{
+          position: static;
+      }
+
   }
   button{
       margin: 10px;
@@ -69,6 +81,7 @@ body{
   .carousel-section{
       background-color: #ef8172;
       text-align:center;
+      position: relative;
   }
   .paparazzi{
       height: 10%;
